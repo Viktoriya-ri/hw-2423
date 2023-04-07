@@ -1,11 +1,11 @@
 /* ================================================-_(variables)_-================================================ */
 :root {
-	--background: #333335;
-	--accent-color: #ff3839;
-	--dark-color: #202020;
-	--light-color: #f8f8f8;
-	--main-white: #fff;
-	--text-color: #696969;
+  --background: #333335;
+  --accent-color: #ff3839;
+  --dark-color: #202020;
+  --light-color: #f8f8f8;
+  --main-white: #fff;
+  --text-color: #696969;
 }
 /* ================================================-_(/variables)_-=============================================== */
 
@@ -14,77 +14,142 @@ h1,
 h2,
 h3,
 p {
-	margin: 0;
+  margin: 0;
 }
 .list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link {
-	text-decoration: none;
+  text-decoration: none;
 }
 body {
-	font-family: "Poppins", sans-serif;
-	color: var(--text-color);
-	background-color: var(--main-white);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-white);
 }
 button {
-	font-family: inherit;
-	cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 /* ================================================-_(/styles reset)_-=============================================== */
 
 /* ================================================-_(header)_-================================================ */
 
 .header {
-	background-color: var(--background);
+  background-color: var(--background);
 }
 .header .container {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navigation {
-	display: flex;
+  display: flex;
 }
 
 .logo-link {
-	color: var(--main-white);
-	font-family: "Inter";
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 1.2;
-	display: flex;
-	align-items: center;
+  color: var(--main-white);
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
 }
 .container {
-	width: 1200px;
-	padding: 0 15px;
-	margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .list-nav {
-	display: flex;
-	gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 .list-link {
-	color: var(--main-white);
-	font-size: 16px;
-	line-height: 1.5;
-	padding: 35px 0;
-	display: inline-block;
+  color: var(--main-white);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 35px 0;
+  display: inline-block;
 
-	letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 }
 .header-btn {
-	font-size: 16px;
-	line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 
-	background-color: var(--accent-color);
-	color: var(--main-white);
-	border-radius: 5px;
-	border: none;
-	padding: 10px 18px;
-	letter-spacing: 0.03em;
+  background-color: var(--accent-color);
+  color: var(--main-white);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 18px;
+  letter-spacing: 0.03em;
 }
 /* ================================================-_(/header)_-=============================================== */
+/*================================hero=============*/
+.hero {
+  background-color: var(--dark-color);
+  padding: 184px 0 190px 0;
+  text-align: center;
+}
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  margin-bottom: 14px;
+}
+.subtitle-accent {
+  color: var(--accent-color);
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  width: 790px;
+  text-align: center;
+  margin: 0 auto 22px auto;
+}
+.hero-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  width: 790px;
+  margin: 0 auto 22px auto;
+}
+.hero-list {
+  display: flex;
+  gap: 19px;
+  justify-content: center;
+}
+.accent-btn {
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--accent-color);
+  color: var(--main-white);
+}
+.hire-btn {
+  padding: 12px 61px;
+  border-radius: 5px;
+  border: none;
+}
+.hero-second-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px 34px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--main-white);
+  color: var(--dark-color);
+}
