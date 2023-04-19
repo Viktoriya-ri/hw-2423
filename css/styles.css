@@ -142,9 +142,16 @@ button {
 /* ================================================-_(/header)_-=============================================== */
 /*================================hero=============*/
 .hero {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--dark-color);
   padding: 184px 0 190px 0;
   text-align: center;
+  background-image: url(../images/hero/graphic-designers-meeting.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-subtitle {
   font-size: 16px;
